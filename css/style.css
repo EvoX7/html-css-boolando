@@ -30,23 +30,60 @@
 
 /* Shop Window */
 
-.container-shop-window {
-    display: flex;
-    margin: 0 auto;
+.container-general {
     background-color: rgb(77, 228, 228);
-    height: 800px;
     width: 80%;
+    margin: 0 auto;
+
+}
+
+
+.container-window-top {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    width: 100%;
+}
+
+.container-window-bottom {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    width: 100%;
 }
 
 .window {
     background-color: bisque;
-    height: 100px;
-    width: 300px;
+    height: 800px;
+    width: 500px;
 }
 
 .w1 {
-    background-image:cover;
     background-image: url("../img/1.webp");
-    height: 100px;
-    width: 300px;
+    background-size: cover;
+}
+
+.w2 {
+    background-image: url("../img/1.webp");
+    background-size: cover;
+}
+
+.w3 {
+    background-image: url("../img/1.webp");
+    background-size: cover;
+}
+
+.w4 {
+    background-image: url("../img/1.webp");
+    background-size: cover;
+}
+
+.w5 {
+    background-image: url("../img/1.webp");
+    background-size: cover;
+}
+
+.w6 {
+    background-image: url("../img/1.webp");
+    background-size: cover;
 }
