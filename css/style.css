@@ -34,6 +34,8 @@ a {
 }
 
 
+
+
 /* Shop Window */
 
 .container-general {
@@ -104,31 +106,19 @@ a {
     right: 10px;
     bottom: -3px;
     font-size: 50px;
-    transition:all 0.3s;
-
-}
-
-.heart:before {
-    content:'';
-    position:absolute;
     transition: all 0.3s;
+
 }
 
-.heart:hover{
-    color:red;
-    cursor: crosshair;
-}
-
-.heart:hover::before{
-    color:red;
+.heart:hover {
+    color: red;
+    cursor: pointer;
 }
 
 
 .w1 {
-
     background-image: url("../img/1.webp");
     background-size: cover;
-
 }
 
 .w2 {
@@ -157,6 +147,40 @@ a {
 }
 
 
+
+/* Hover  */
+.w1:hover {
+
+    background-image: url("../img/1b.webp");
+
+    background-size: cover;
+}
+
+.w2:hover {
+    background-image: url("../img/2b.webp");
+    background-size: cover;
+}
+
+.w3:hover {
+    background-image: url("../img/3b.webp");
+    background-size: cover;
+}
+
+.w4:hover {
+    background-image: url("../img/4b.webp");
+    background-size: cover;
+}
+
+.w5:hover {
+    background-image: url("../img/5b.webp");
+    background-size: cover;
+}
+
+
+.w6.hover {
+    background-image: url("../img/6b.webp");
+    background-size: cover;
+}
 
 /* Captions Top */
 
