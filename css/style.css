@@ -104,7 +104,23 @@ a {
     right: 10px;
     bottom: -3px;
     font-size: 50px;
+    transition:all 0.3s;
 
+}
+
+.heart:before {
+    content:'';
+    position:absolute;
+    transition: all 0.3s;
+}
+
+.heart:hover{
+    color:red;
+    cursor: crosshair;
+}
+
+.heart:hover::before{
+    color:red;
 }
 
 
