@@ -31,7 +31,7 @@
 /* Shop Window */
 
 .container-general {
-    background-color: rgb(148, 238, 238);
+    background-color: rgb(255, 255, 255);
     width: 80%;
     margin: 0 auto;
 
@@ -53,7 +53,8 @@
 }
 
 .window {
-    background-color: bisque;
+    position: relative;
+    background-color: rgb(255, 255, 255);
     height: 800px;
     width: 500px;
 }
@@ -88,20 +89,20 @@
     top: 10px;
     width: 50px;
     height: 50px;
-    background-color: red;
+    background-color: rgb(255, 255, 255);
 }
 
-.heart  {
+.heart {
     position: absolute;
     right: 10px;
     bottom: -3px;
     font-size: 50px;
-    
+
 }
 
 
 .w1 {
-    position: relative;
+
     background-image: url("../img/1.webp");
     background-size: cover;
 
@@ -136,7 +137,7 @@
 
 /* Captions Top */
 
-.caption-top {
+.captions {
     display: flex;
     justify-content: space-between;
 
@@ -146,21 +147,21 @@
     width: 500px;
     height: 100px;
     padding-top: 2px;
-    background-color: rgb(148, 148, 148);
+    background-color: rgb(255, 255, 255);
 }
 
 .caption-top2 {
     width: 500px;
     height: 100px;
     padding-top: 2px;
-    background-color: rgb(148, 148, 148);
+    background-color: rgb(255, 255, 255);
 }
 
 .caption-top3 {
     width: 500px;
     height: 100px;
     padding-top: 2px;
-    background-color: rgb(148, 148, 148);
+    background-color: rgb(255, 255, 255);
 }
 
 
@@ -190,15 +191,15 @@
 
 }
 
-.sconto-2 {
-    position: absolute;
-    bottom: 100px;
-
-}
-
 
 .label-1 {
     position: absolute;
     bottom: 50px;
     left: 65px;
+}
+
+.label-2 {
+    position: absolute;
+    bottom: 50px;
+    left: 0px;
 }
