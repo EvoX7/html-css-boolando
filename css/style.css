@@ -87,3 +87,30 @@
     background-image: url("../img/1.webp");
     background-size: cover;
 }
+
+.caption-top {
+    width: 500px;
+    height: 100px;
+    background-color: rgb(148, 148, 148);
+}
+
+
+/* Captions Top */
+.c-text {
+    font-family: 'Rubik', sans-serif;
+}
+
+.p2 {
+    font-weight: bold;
+
+}
+
+.red-text {
+    color: red;
+    font-weight: bold;
+}
+
+.line-on-text {
+    text-decoration: line-through;
+    margin-left: 5px;
+}
