@@ -177,7 +177,7 @@ a {
 }
 
 
-.w6.hover {
+.w6:hover {
     background-image: url("../img/6b.webp");
     background-size: cover;
 }
