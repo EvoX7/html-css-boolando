@@ -7,6 +7,20 @@
 }
 
 /* Header */
+
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1;
+}
+
+body {
+  margin-top: 100px;
+}
+
 .top-banner {
   display: flex;
   justify-content: space-evenly;
@@ -15,7 +29,7 @@
   background-color: #ff6900;
   height: 50px;
   color: whitesmoke;
-  margin-bottom: 30px;
+
 }
 
 .gender {
@@ -34,10 +48,12 @@ a {
 /* Shop Window */
 
 .container-general {
+  margin: bottom 50px;
   background-color: rgb(255, 255, 255);
   width: 80%;
   margin: 0 auto;
   overflow: hidden;
+
 }
 
 .container-window-top {
