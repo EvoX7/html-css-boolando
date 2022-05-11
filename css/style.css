@@ -58,44 +58,112 @@
     width: 500px;
 }
 
+
+/* Sconti e labels, heart  */
+.sconto {
+    width: 60px;
+    height: 30px;
+    text-align: center;
+    line-height: 33px;
+    background-color: red;
+    color: white;
+    font-family: 'Rubik', sans-serif;
+    font-weight: bold;
+}
+
+.label {
+    width: 120px;
+    height: 30px;
+    text-align: center;
+    line-height: 33px;
+    background-color: rgb(8, 160, 59);
+    color: white;
+    font-family: 'Rubik', sans-serif;
+    font-weight: bold;
+}
+
+.cont-heart {
+    position: absolute;
+    right: 0px;
+    top: 10px;
+    width: 50px;
+    height: 50px;
+    background-color: red;
+}
+
+.heart  {
+    position: absolute;
+    right: 10px;
+    bottom: -3px;
+    font-size: 50px;
+    
+}
+
+
 .w1 {
+    position: relative;
     background-image: url("../img/1.webp");
     background-size: cover;
+
 }
 
 .w2 {
-    background-image: url("../img/1.webp");
+    background-image: url("../img/2.webp");
     background-size: cover;
 }
 
 .w3 {
-    background-image: url("../img/1.webp");
+    background-image: url("../img/3.webp");
     background-size: cover;
 }
 
 .w4 {
-    background-image: url("../img/1.webp");
+    background-image: url("../img/4.webp");
     background-size: cover;
 }
 
 .w5 {
-    background-image: url("../img/1.webp");
+    background-image: url("../img/5.webp");
     background-size: cover;
 }
 
 .w6 {
-    background-image: url("../img/1.webp");
+    background-image: url("../img/6.webp");
     background-size: cover;
 }
 
+
+
+/* Captions Top */
+
 .caption-top {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.caption-top1 {
     width: 500px;
     height: 100px;
+    padding-top: 2px;
+    background-color: rgb(148, 148, 148);
+}
+
+.caption-top2 {
+    width: 500px;
+    height: 100px;
+    padding-top: 2px;
+    background-color: rgb(148, 148, 148);
+}
+
+.caption-top3 {
+    width: 500px;
+    height: 100px;
+    padding-top: 2px;
     background-color: rgb(148, 148, 148);
 }
 
 
-/* Captions Top */
 .c-text {
     font-family: 'Rubik', sans-serif;
 }
@@ -113,4 +181,17 @@
 .line-on-text {
     text-decoration: line-through;
     margin-left: 5px;
+}
+
+
+.sconto-1 {
+    position: absolute;
+    bottom: 50px;
+
+}
+
+.label-1 {
+    position: absolute;
+    bottom: 50px;
+    left: 65px;
 }
