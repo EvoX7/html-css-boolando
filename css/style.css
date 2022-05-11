@@ -31,7 +31,7 @@
 /* Shop Window */
 
 .container-general {
-    background-color: rgb(77, 228, 228);
+    background-color: rgb(148, 238, 238);
     width: 80%;
     margin: 0 auto;
 
@@ -189,6 +189,13 @@
     bottom: 50px;
 
 }
+
+.sconto-2 {
+    position: absolute;
+    bottom: 100px;
+
+}
+
 
 .label-1 {
     position: absolute;
